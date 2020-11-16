@@ -1,24 +1,28 @@
 {
-  "name": "node_passport_login",
+  "name": "file_upload_classify",
   "version": "2.0.0",
-  "description": "Node.js authentication with Passport",
+  "description": "Upload and classify files",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "keywords": [],
-
   "author": "Shingirirai Mherembi",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
     "connect-flash": "^0.1.1",
     "ejs": "^2.7.4",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.17.1",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
     "mongoose": "^5.10.13",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
   },
